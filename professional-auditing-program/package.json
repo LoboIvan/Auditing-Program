@@ -1,0 +1,11 @@
+{
+  "name": "professional-auditing-program",
+  "version": "1.0.0",
+  "description": "Professional Auditing Program",
+  "main": "home.html",
+  "scripts": {
+    "start": "start home.html"
+  },
+  "author": "",
+  "license": "ISC"
+}

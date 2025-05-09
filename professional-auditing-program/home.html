@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home - Professional Auditing Program</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f0f4f8;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    .container {
+      background: white;
+      max-width: 1000px;
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+    }
+    .illustration {
+      flex: 1 1 400px;
+      background: #e6f0ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+    .illustration img {
+      max-width: 100%;
+      height: auto;
+    }
+    .content {
+      flex: 1 1 500px;
+      padding: 60px 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin: 0 0 20px 0;
+      color: #1a3e72;
+      font-weight: 700;
+    }
+    p {
+      font-size: 1.15rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+      color: #555;
+    }
+    .btn-start {
+      align-self: flex-start;
+      background-color: #1a3e72;
+      color: white;
+      padding: 15px 40px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 6px 15px rgba(26, 62, 114, 0.5);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .btn-start:hover {
+      background-color: #14406a;
+      box-shadow: 0 8px 20px rgba(20, 64, 106, 0.7);
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .illustration, .content {
+        flex: 1 1 100%;
+        padding: 30px 20px;
+      }
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="illustration">
+    <img src="Audit-1.jpg" alt="Audit checklist illustration" />
+    </div>
+    <div class="content">
+      <h1>Welcome to the Professional Auditing Program</h1>
+      <p>Manage and audit your inventory items efficiently with our comprehensive factory inventory audit system. Track raw materials, work in progress, finished goods, and more with ease.</p>
+      <p>Use our intuitive interface to add, categorize, and visualize your inventory data. Export reports and summaries to keep your audits accurate and up to date.</p>
+      <a href="index.html" class="btn-start" aria-label="Go to Auditing Program">Get Started</a>
+    </div>
+  </div>
+</body>
+</html>
